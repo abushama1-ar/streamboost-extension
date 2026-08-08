@@ -83,7 +83,6 @@ git checkout -b feature/new-feature
 ### [💛 ادعم المشروع عبر PayPal](https://www.paypal.com/paypalme/Alaaabushamaa)
 
 </div>
-<https://dev.to/openforge1/i-built-a-browser-extension-that-skips-video-ads-automatically-and-open-sourced-it-40fn>
 
 أي دعم — مهما كان بسيط — بيساعد كتير ويشجع على تطوير مشاريع مفتوحة المصدر أكتر.
 
