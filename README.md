@@ -9,7 +9,9 @@
 [![Made with JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](#)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](#)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/Alaaabushamaa)
+[![Read on Dev.to](https://img.shields.io/badge/Read%20the%20story-DEV.to-0A0A0A?logo=devdotto&logoColor=white)](https://dev.to/openforge1/i-built-a-browser-extension-that-skips-video-ads-automatically-and-open-sourced-it-40fn)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#المساهمة)
+
 **تخطي الإعلانات تلقائيًا • حظر التتبع • تحكم كامل بالفيديو**
 
 ### 📦 [⬇️ ثبّت الإضافة الآن من متجر Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/streamboost-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%A7/cfhijlgdniifdpojieajpaifehbffmmj)
@@ -25,6 +27,8 @@
 **StreamBoost** إضافة مفتوحة المصدر ومنشورة رسميًا على متجر Microsoft Edge بتحسّن تجربة مشاهدة الفيديوهات وتصفح الإنترنت — بتتخطى الإعلانات تلقائيًا، بتحظر أدوات التتبع، وبتضيف اختصارات تحكم للفيديو ما هي متوفرة بشكل افتراضي بأغلب المواقع.
 
 الكود متاح بالكامل بهذا الريبو للمراجعة أو المساهمة، والإضافة **مُراجَعة رسميًا من Microsoft** ومتوفرة جاهزة للتثبيت مباشرة.
+
+📖 اقرأ قصة بناء المشروع بالتفصيل: **[كيف بنيت StreamBoost — على Dev.to](https://dev.to/openforge1/i-built-a-browser-extension-that-skips-video-ads-automatically-and-open-sourced-it-40fn)**
 
 ## 📥 كيف تثبت الإضافة؟
 
