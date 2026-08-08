@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>StreamBoost</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">⚡ StreamBoost</div>
+    <div class="blocked-stat">
+      <span id="blockedCount">0</span>
+      <span class="stat-label">عنصر محظور بهاي الصفحة</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="adBlockEnabled">
+        <span class="slider"></span>
+      </label>
+      <div class="toggle-text">
+        <strong>حظر الإعلانات</strong>
+        <small>يحجب شبكات الإعلانات والنوافذ المنبثقة</small>
+      </div>
+    </div>
+
+    <div class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="videoControllerEnabled">
+      <span class="slider"></span>
+      </label>
+      <div class="toggle-text">
+        <strong>متحكم الفيديو</strong>
+        <small>سرعة، تخطي، PiP، سطوع</small>
+      </div>
+    </div>
+
+    <div class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="rememberPosition">
+      <span class="slider"></span>
+      </label>
+      <div class="toggle-text">
+        <strong>تذكر مكان التوقف</strong>
+        <small>يقترح المتابعة من حيث توقفت</small>
+      </div>
+    </div>
+
+    <div class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="focusMode">
+      <span class="slider"></span>
+      </label>
+      <div class="toggle-text">
+        <strong>وضع التركيز</strong>
+        <small>يعتم كل شي إلا الفيديو</small>
+      </div>
+    </div>
+
+    <div class="toggle-row">
+      <label class="switch">
+        <input type="checkbox" id="darkMode">
+      <span class="slider"></span>
+      </label>
+      <div class="toggle-text">
+        <strong>الوضع الليلي الإجباري</strong>
+        <small>يطبق على أي موقع</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="setting-row">
+      <span>سرعة التشغيل الافتراضية</span>
+      <select id="defaultSpeed">
+        <option value="0.5">0.5x</option>
+        <option value="0.75">0.75x</option>
+        <option value="1" selected>1x</option>
+        <option value="1.25">1.25x</option>
+        <option value="1.5">1.5x</option>
+        <option value="2">2x</option>
+      </select>
+    </div>
+    <div class="setting-row">
+      <span>مدة التخطي (ثانية)</span>
+      <select id="skipSeconds">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="15">15</option>
+        <option value="30">30</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="footer">
+    <small>اختصار: Shift + ← / → للتقديم والتأخير</small>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

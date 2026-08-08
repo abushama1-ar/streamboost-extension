@@ -1,0 +1,134 @@
+/* StreamBoost - Content Styles */
+
+#sb-controller {
+  position: fixed;
+  z-index: 2147483647;
+  bottom: 24px;
+  right: 24px;
+  background: rgba(20, 20, 25, 0.92);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 14px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+  direction: rtl;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  user-select: none;
+}
+
+#sb-controller.sb-collapsed .sb-panel {
+  display: none;
+}
+
+#sb-controller .sb-toggle {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #6c5ce7, #00cec9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+#sb-controller .sb-panel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#sb-controller button.sb-btn {
+  background: rgba(255,255,255,0.08);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  padding: 6px 9px;
+  font-size: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s ease;
+}
+
+#sb-controller button.sb-btn:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+#sb-controller .sb-speed-display {
+  font-size: 12px;
+  font-weight: 600;
+  min-width: 34px;
+  text-align: center;
+}
+
+#sb-controller .sb-divider {
+  width: 1px;
+  height: 18px;
+  background: rgba(255,255,255,0.15);
+  margin: 0 2px;
+}
+
+/* رسالة استئناف المشاهدة */
+#sb-resume-toast {
+  position: fixed;
+  z-index: 2147483647;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  background: rgba(20,20,25,0.95);
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-family: -apple-system, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-size: 13px;
+  direction: rtl;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#sb-resume-toast.sb-show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#sb-resume-toast button {
+  background: #6c5ce7;
+  border: none;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* وضع التركيز - يعتم كل شي إلا الفيديو */
+body.sb-focus-mode > *:not(#sb-controller):not(#sb-resume-toast) {
+  filter: grayscale(0.4) brightness(0.5);
+  transition: filter 0.3s ease;
+}
+
+body.sb-focus-mode video {
+  filter: none !important;
+}
+
+/* Dark mode بسيط */
+html.sb-dark-mode {
+  filter: invert(0.92) hue-rotate(180deg);
+}
+
+html.sb-dark-mode img,
+html.sb-dark-mode video,
+html.sb-dark-mode picture,
+html.sb-dark-mode iframe {
+  filter: invert(1) hue-rotate(180deg);
+}
