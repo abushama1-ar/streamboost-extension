@@ -10,7 +10,7 @@
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](#)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/Alaaabushamaa)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#المساهمة)
-
+https://dev.to/openforge1/i-built-a-browser-extension-that-skips-video-ads-automatically-and-open-sourced-it-40fn
 **تخطي الإعلانات تلقائيًا • حظر التتبع • تحكم كامل بالفيديو**
 
 ### 📦 [⬇️ ثبّت الإضافة الآن من متجر Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/streamboost-%D9%85%D8%B3%D8%A7%D8%B9%D8%AF-%D8%A7%D9%84%D9%85%D8%B4%D8%A7/cfhijlgdniifdpojieajpaifehbffmmj)
