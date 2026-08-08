@@ -8,6 +8,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![Made with JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](#)
 [![Open Source](https://img.shields.io/badge/Open%20Source-%E2%9D%A4-brightgreen)](#)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white)](https://www.paypal.com/paypalme/Alaaabushamaa)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#المساهمة)
 
 **تخطي الإعلانات تلقائيًا • حظر التتبع • تحكم كامل بالفيديو**
@@ -74,6 +75,17 @@
 git checkout -b feature/new-feature
 # 3. ادفع تعديلاتك وافتح Pull Request
 ```
+
+## ❤️ دعم المشروع
+هذا المشروع مطوَّر ومُصان بجهد فردي بالكامل، وبيوصل مجانًا لكل الناس. إذا استفدت منه وحابب تدعم استمراريته:
+
+<div align="center">
+
+### [💛 ادعم المشروع عبر PayPal](https://www.paypal.com/paypalme/Alaaabushamaa)
+
+</div>
+
+أي دعم — مهما كان بسيط — بيساعد كتير ويشجع على تطوير مشاريع مفتوحة المصدر أكتر.
 
 ## 📄 الرخصة
 هذا المشروع مرخّص تحت [GPL-3.0 License](LICENSE)
